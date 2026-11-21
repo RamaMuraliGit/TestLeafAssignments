@@ -22,12 +22,6 @@ test("Test to learn alert", async ({ page }) => {
     case"prompt":
     dialogAlert.accept("Rama");
     console.log("This is prompt alert");
-
-
-     }
-
-     })
-
-
-
-})
+    break;
+    }})
+    })
